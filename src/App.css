@@ -1,0 +1,67 @@
+#root {
+  width: 200px;
+  margin: auto;
+}
+
+#root .result {
+  height: 40px;
+  background: black;
+}
+
+#root .result .resultValue {
+  text-align: end;
+  height: 100%;
+  font-size: 30px;
+  color: #fff;
+  padding-right: 15px;
+}
+
+#root .button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+#root .button-wrapper button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  background-color: #555555;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 0;
+}
+
+#root .button-wrapper button:hover {
+  background: #999999;
+}
+
+#root .button-wrapper .operator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#root .button-wrapper .operator button {
+  background: orange;
+}
+
+#root .button-wrapper .operator button:hover {
+  background: #ffc7af;
+}
+
+#root .button-wrapper .operator button:focus {
+  background: #fff;
+  color: orange;
+}
+/*# sourceMappingURL=App.css.map */
