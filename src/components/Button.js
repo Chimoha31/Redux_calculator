@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Button({text}) {
+function Button({text, onClick}) {
   return (
-      <button>{text}</button>
+      <button onClick={onClick}>{text}</button>
   )
 }
 
-export default Button
+export default Button;

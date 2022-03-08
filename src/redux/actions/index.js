@@ -19,7 +19,7 @@ export const onClickPlus = () => ({
 export const onClickMinus = () => ({
   type: MINUS,
 });
-export const onClickMultoply = () => ({
+export const onClickMultiply = () => ({
   type: MULTIPLY,
 });
 export const onClickDevide = () => ({
